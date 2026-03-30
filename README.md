@@ -139,6 +139,8 @@ A finite state machine with three states controls the process:
 
 ### 3.5 FPGA Implementation Reports
 
+The following reports are from Xilinx Vivado targeting the AMD Artix 7 FPGA (AC701 Evaluation Kit, xc7a200tfbg676-2).
+
 **Utilization:**
 
 ![Utilization Report — Serial](./Reports/FIR_Serial/Utilization_Report_FIR_serial.png)
