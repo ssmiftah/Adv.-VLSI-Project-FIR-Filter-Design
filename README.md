@@ -69,7 +69,7 @@ These integer values are exactly what is embedded in the hardware coefficient RO
 
 The figure below overlays the ideal and quantized frequency responses, with a separate subplot showing the quantization error magnitude across frequency:
 
-![Ideal vs Quantized Comparison](../Matlab%20Implementation/Comparison_quantized_unquantized.svg)
+![Ideal vs Quantized Comparison](./Matlab%20Implementation/Comparison_quantized_unquantized.svg)
 
 The top subplot shows that the quantized (Q1.15) response closely tracks the ideal response — the two curves are visually indistinguishable in the passband and transition band. The bottom subplot isolates the quantization error, confirming that the 16-bit representation introduces negligible degradation relative to the 80 dB stopband specification.
 
@@ -141,15 +141,15 @@ A finite state machine with three states controls the process:
 
 **Utilization:**
 
-![Utilization Report — Serial](../Reports/FIR_Serial/Utilization_Report_FIR_serial.png)
+![Utilization Report — Serial](./Reports/FIR_Serial/Utilization_Report_FIR_serial.png)
 
 **Timing:**
 
-![Timing Report — Serial](../Reports/FIR_Serial/Timing_Report_FIR_serial.png)
+![Timing Report — Serial](./Reports/FIR_Serial/Timing_Report_FIR_serial.png)
 
 **Power:**
 
-![Power Report — Serial](../Reports/FIR_Serial/Power_Report_FIR_serial.png)
+![Power Report — Serial](./Reports/FIR_Serial/Power_Report_FIR_serial.png)
 
 ---
 
@@ -248,15 +248,15 @@ The sum coefficient $H_0 + H_1$ is computed **combinationally** from the ROM out
 
 **Utilization:**
 
-![Utilization Report — L=2](../Reports/FIR_L2_reduced/Utilization_Report_FIR_L2.png)
+![Utilization Report — L=2](./Reports/FIR_L2_reduced/Utilization_Report_FIR_L2.png)
 
 **Timing:**
 
-![Timing Report — L=2](../Reports/FIR_L2_reduced/Timing_Report_FIR_L2.png)
+![Timing Report — L=2](./Reports/FIR_L2_reduced/Timing_Report_FIR_L2.png)
 
 **Power:**
 
-![Power Report — L=2](../Reports/FIR_L2_reduced/Power_Report_FIR_L2.png)
+![Power Report — L=2](./Reports/FIR_L2_reduced/Power_Report_FIR_L2.png)
 
 ---
 
@@ -335,15 +335,15 @@ Instead of storing three separate previous-block values (P1, P2, P4), the design
 
 **Utilization:**
 
-![Utilization Report — L=3](../Reports/FIR_L3_reduced/Utilization_Report_FIR_L3.png)
+![Utilization Report — L=3](./Reports/FIR_L3_reduced/Utilization_Report_FIR_L3.png)
 
 **Timing:**
 
-![Timing Report — L=3](../Reports/FIR_L3_reduced/Timing_Report_FIR_L3.png)
+![Timing Report — L=3](./Reports/FIR_L3_reduced/Timing_Report_FIR_L3.png)
 
 **Power:**
 
-![Power Report — L=3](../Reports/FIR_L3_reduced/Power_Report_FIR_L3.png)
+![Power Report — L=3](./Reports/FIR_L3_reduced/Power_Report_FIR_L3.png)
 
 ---
 
@@ -427,15 +427,15 @@ Where ST = SUBFILTER_TAPS = 34.
 
 **Utilization:**
 
-![Utilization Report — Pipelined L=3](../Reports/FIR_L3_combined/Utilization_Report_FIR_L3_Pipelined.png)
+![Utilization Report — Pipelined L=3](./Reports/FIR_L3_combined/Utilization_Report_FIR_L3_Pipelined.png)
 
 **Timing:**
 
-![Timing Report — Pipelined L=3](../Reports/FIR_L3_combined/Timing_Report_FIR_L3_Pipelined.png)
+![Timing Report — Pipelined L=3](./Reports/FIR_L3_combined/Timing_Report_FIR_L3_Pipelined.png)
 
 **Power:**
 
-![Power Report — Pipelined L=3](../Reports/FIR_L3_combined/Power_Report_FIR_L3_Pipelined.png)
+![Power Report — Pipelined L=3](./Reports/FIR_L3_combined/Power_Report_FIR_L3_Pipelined.png)
 
 ---
 
@@ -587,15 +587,15 @@ The serial filter reuses one multiplier across all taps in time. The systolic ar
 
 **Utilization:**
 
-![Utilization Report — Systolic](../Reports/Systolic%20Filter/Utilization_Report_FIR_systolic.png)
+![Utilization Report — Systolic](./Reports/Systolic%20Filter/Utilization_Report_FIR_systolic.png)
 
 **Timing:**
 
-![Timing Report — Systolic](../Reports/Systolic%20Filter/Timing_Report_FIR_systolic.png)
+![Timing Report — Systolic](./Reports/Systolic%20Filter/Timing_Report_FIR_systolic.png)
 
 **Power:**
 
-![Power Report — Systolic](../Reports/Systolic%20Filter/Power_Report_FIR_systolic.png)
+![Power Report — Systolic](./Reports/Systolic%20Filter/Power_Report_FIR_systolic.png)
 
 ---
 
