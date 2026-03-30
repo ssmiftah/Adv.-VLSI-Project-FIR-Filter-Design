@@ -43,7 +43,7 @@ The equiripple method distributes the approximation error uniformly across both 
 
 The figure below shows the magnitude and phase response of the 100-tap ideal (floating-point) filter as produced by MATLAB's `fvtool`:
 
-![Filter Response](../Matlab%20Implementation/Filter_Response.svg)
+![Filter Response](./Matlab%20Implementation/Filter_Response.svg)
 
 The design achieves the target 80 dB stopband attenuation with a sharp transition band between 0.2 pi and 0.23 pi rad/sample. The filter coefficients are symmetric (linear phase), resulting in a purely linear phase response across the passband.
 
